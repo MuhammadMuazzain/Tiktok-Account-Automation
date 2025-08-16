@@ -1,0 +1,7 @@
+.env
+credentials.json
+.claude/
+ai_compliance_auditor/
+rag_whatsapp_bot/
+num_plate_detector/
+chromedtiver.exe
