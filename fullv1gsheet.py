@@ -174,6 +174,7 @@ def create_tiktok_account():
                   "July", "August", "September", "October", "November", "December"]
         selected_month = random.choice(months)
         selected_day = str(random.randint(1, 28))
+        # selected_year = str(random.randint(1990, 2000))
         selected_year = str(random.randint(1990, 2000))
 
         wait.until(EC.element_to_be_clickable((By.XPATH, "//div[@aria-label='Month. Double-tap for more options']"))).click()

@@ -242,6 +242,7 @@ def create_tiktok_account():
 
                 print(f"✅ Selected suggested username: {suggested_username}")
             except:
+                # print("⚠️ No suggestions found — using typed username as-is.")
                 print("⚠️ No suggestions found — using typed username as-is.")
 
             # Click the Sign Up button (regardless)
